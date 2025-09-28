@@ -1,0 +1,10 @@
+
+1. Create a simple volume on any one of the 20GB hard disk. Assign drive letter as h:
+Format it. Create a folder and a file in this drive.
+
+2. Shrink the volume h: by 15 GB. Thus the H: will be of 5 GB. Then create another simple volume of 8 GB and assign drive letter as J:
+
+3. Now extend h: to consume remaining free space (7GB).
+
+Is hard disk converted to dynamic? Why?
+

@@ -1,0 +1,11 @@
+Delete ditiss folder. can you delete it? If yes does it deletes the mirror volume also?
+
+Delete mirror volume from 20 GB hard disk.
+
+Add one more 20 GB hard disk to virtual machine.
+
+Now create a RAID 5 volume using 4 20 GB hard disks. 
+
+Mount this RAID 5 volume in sunbeam directory on c:
+
+Take one of the 20 GB hard disk offline. Check if sunbeam directory is accessible and you can create data in it. 

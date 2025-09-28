@@ -1,0 +1,12 @@
+Delete g: volume.
+
+Create a folder by name ditiss on c:
+Create a mirror volume using 2 20 GB hard disks. 
+
+Do not assign drive letter. Instead select mount inside folder option and select the ditiss folder on c:
+
+Format the disk. Go to the ditiss folder and create 2 files inside it.
+
+Now take one of the 20 GB hard disk offline. Go to the ditiss folder and check if the data is shown. 
+
+Take the other 20 GB hard disk also offline. Is the data shown in ditiss folder?

@@ -1,0 +1,14 @@
+Delete h: and j: volumes
+Create a 40 GB stripped volume using 2 20 GB hard disks.
+
+Assign drive letter as g:. Format it.
+
+Can you extend it? 
+
+Go to g:. Create a file.
+
+Now take one of the 20 GB hard disk offline.
+
+Is g: available and the file is shown?
+
+Make the disk online again. Is g: available ? 
