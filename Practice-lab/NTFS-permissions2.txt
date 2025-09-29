@@ -1,0 +1,13 @@
+1. Create a RAID 1 array using 2 20GB hard disks. Assign drive letter as g:. Format using NTFS. Keep block size as 8K.
+
+2. Create a drive h: using 3rd 20 GB hard disk. Format using NTFS. Keep block size as 8K.
+
+3. Create users ditiss1 and ditiss2. Create a group by name ditiss and add ditiss1 and ditiss2 users to this group.
+
+4. Create users dac1 and dac2. Create a group by name dac and add users dac1 and dac2 to dac group.
+
+5. Make sure that g: is accessible (Modify permissions) only to administrators and ditiss users. DAC users should not be able to access g:
+
+6. Create a directory by name dac-data on h:. Make sure this directory is accessible (Modify permission) only to the dac users. Ditiss users are not allowed to access this directory. 
+
+7. Create a user by name faculty. Create a directory on h: by name assignments. Make sure only faculty user can create, delete files inside this folder. All students (ditiss1, ditiss2, dac1, dac2) can only read data from it. 
