@@ -1,0 +1,17 @@
+1. Create a new virtual machine and install Windows 11 on it. Set the computer name as win1. Set proper time zone.
+
+2. Install Active directory domain services on Server1.Create a domain by name sunbeam.lab. 
+
+3. Add Windows 11 computer as a client to the domain. 
+
+4.Login to domain controller. Create an OU by name ditiss. Create a user by name ditiss1 and ditiss2 inside this ditiss OU. Create another OU below domain ( not inside ditiss OU) by name dac. Create a user dac1 and dac2 inside this OU. Move the Windows 11 computer account to ditiss OU from computers OU on the domain controller.
+
+5. Use dac2 is not allowed to login from Windows 11 computer. User dac1 is not allowed to login on Sunday. On Tuesday this user is allowed to login between 8 am to 1pm only. On all other days this user is allowed to login between 9 am to 6 pm.
+
+6. On Windows 11 computer create a folder by name ditiss. Below ditiss folder create assignment folder. Provide permissions such that only ditiss users are able to create file in assignment folder. No other users can access the folder.
+
+7. Remove restrictions from dac users. Login as dac1 user and check if user can access ditiss folder? 
+
+8. Delete the DAC OU.
+
+9. Create an OU by name dbda below domain. Create 4 users below it. Allow these users to login only from the Windows 11 computer. Put tomorrow date as the expiry date for these users. 
