@@ -1,0 +1,6 @@
+1. Configure Server2 as an additional domain controller.
+
+2. Transfer all 5 FSMO roles from server1 to server2 using GUI utilities.
+Verify using command line.
+
+3. Transfer all 5 FSMO roles from server2 to server1 using ntdsutil.

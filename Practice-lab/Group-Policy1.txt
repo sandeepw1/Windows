@@ -1,0 +1,7 @@
+1. Create an OU by name sales in the domain. Create users s1 and s2 inside this OU. 
+2. Create a Group policy for this OU such that users are not allowed to open the control panel. Also do not show any icons on the desktop. But users are allowed to use RUN menu and command prompt.
+Login as user s1 from the client machine and verify if the settings are applied.
+3. Create an OU by name operators. Create users op1 and op2 inside this OU.
+4. Create a Group policy for operators OU such that users are not allowed to open the control panel. Also do not show any icons on the desktop. Also restrict RUN menu and command prompt.
+Login as user op1 from the client machine and verify if the settings are applied.
+
