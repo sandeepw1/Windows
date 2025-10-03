@@ -1,0 +1,6 @@
+1. Create an OU by name developers. Create 2 users by name dev1 and dev2.
+Create a group policy to publish Firefox application and install python when the users log in to the client computer.
+
+2. Create an OU by name it-dept. Create 2 users by name admin1 and admin2. Create a group policy to publish Firefox application and install putty application when users log in.
+
+3. Make sure the client computer account is in developers OU. Modify the group policy such that dev1 user is allowed to change the system date and time and timezone(Computer configuration -> Policies -> Windows Settings -> Security Settings -> User Rights Assignment) . Also computer should display logon message "Do not share passwords with anyone" with heading as CyberSecurity Tip.( Computer configuration -> Policies -> Windows Settings -> Security Settings -> Security Options -> Interactive logon section)
