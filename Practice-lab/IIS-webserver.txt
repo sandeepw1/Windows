@@ -1,0 +1,6 @@
+1. Install IIS webserver and display following message on the webpage of the default website. 
+Welcome to ACTS CDAC !!!
+
+2. Create 2 additional websites. The first website should run on port 5000 and display message "Welcome to DITISS Course!!!". The second website should run on port 6000 and display message "Welcome to DAC Course!!!". Make sure the websites are accessible from the client also.
+
+3. Delete 2 websites. Do not delete default website. Create 3 websites. Thus total 4 websites will be there including the default website. The default website will be accessed using www.acts.lab and display message "Welcome to ACTS courses!!!". The second website will be accessed using www.sunbeam.info and display message "Welcome to Sunbeam Hinjewadi!!!". The third website will be accessed using www.iacsd.edu and display the message "Welcome to IACSD!!!".The fourth website will be accessed using name www.exam.org and display message "Welcome to Exam portal!!!"
