@@ -1,0 +1,20 @@
+1. Create an IIS website. This website should be accessible by name www.phoenix.com. 
+
+2. Configure DNS such that this website can be accessed by name www.phoenix.co.in also.
+
+3. Create a zone in DNS by name Micromax.lab. This zone will not be an active directory integrated. Create following records in it. 
+
+www  A  192.168.50.10
+ftp  A  192.168.50.20
+files cname  ftp.micromax.lab
+mailsrv	A  192.168.50.5
+mail mx  mailsrv.micromax.lab
+
+5. Create a secondary zone for this on the ADC or other DNS server.
+
+6. Create a reverse lookup zone for your network and create PTR records for following IP address.
+50   --- ftp.sunbeam.lab
+60 ---  mailsrv.sunbeam.lab
+65  -- dbsrv.sunbeam.lab
+
+
