@@ -1,0 +1,15 @@
+1. Create another zone by name techbox.lab. Remove the check box for Active Directory integrated. Add following records.
+www - 192.168.120.5
+ftp - 192.168.120.10
+erp - 192.168.120.20
+
+2. Create a secondary zone for this zone on another server.
+
+3. Create another zone by name cybertech.lab. Remove the check box for Active Directory integrated. Add following records.
+www - 192.168.110.15
+exam - 192.168.110.10
+webmail - 192.168.110.20
+
+4. Create a stub zone for this zone on the second server.
+
+

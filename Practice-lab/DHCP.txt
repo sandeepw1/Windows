@@ -1,0 +1,9 @@
+1. Configure a DHCP server to assign 100 addresses to the clients. Provide default gateway. The DNS server address will be your DC and ADC address.
+Make sure the VMWare DHCP is off. 
+
+Check if client is getting IP address.
+
+2. Provide a reservation for the client to get 100 IP address of your network (e.g. if your network is 192.168.100 then client should get 192.168.100.100)
+
+
+

@@ -1,0 +1,4 @@
+1. Configure WDS on the DHCP server to install Windows server operating system on clients.
+
+
+
