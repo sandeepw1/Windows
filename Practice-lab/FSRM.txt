@@ -2,4 +2,7 @@ A.Create 2 folders on the DC Server by name Pune-data and BG-data. Share the fol
 B.Install FSRM Service.							
 C.Configure FSRM service to apply 10GB quota (soft) to pune-data folder and 8 GB (hard) quota to bg-data folder.						
 D.Configure file screening such that users can store only doc,xls and text files in the pune-data folder. Allow users to store only image files - png,bmp,jpeg files in the bg-data folder.									
-Configure classification for pune-data folder such that if the file contains words like exam, questions, result,  then in the classification tab confidential property should be displayed and the value should be set to yes. 
+
+Configure classification for pune-data folder such that if the file contains words like exam then in the classification tab confidential property should be displayed and the value should be set to yes. 
+Configure classification for bg-data folder such that file classification shows property by name DataType. This property should show 3 options - High, Medium and Low. Set this property to high if the file contains the word sunbeam.
+Configure file expiration of both folders such that if the file is not modified for 15 days or if the file gets older than 60 days then file should be shifted to old-data folder.
