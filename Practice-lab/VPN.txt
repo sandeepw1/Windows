@@ -1,0 +1,10 @@
+This LAB requires 3 Virtual Machines.
+
+1. Configure a Member server. Add one more network card in the Member server. Put it into NAT mode. Assign 192.168.50.1 address to it.
+
+2. Create a group by name vpnusers on the DC. Create users vpn1 and vpn2. Add vpn1 user as a member into the vpnusers group.
+
+3. Configure Remote Access and NPS service on the member server. Configure NPS policy such that only members of the vpnusers group can access VPN.
+
+4. Remove Client from the domain. Change client network card to NAT mode. Change IP address of the client to 192.168.50.20. Create a dialup VPN connection on the client. Login as vpn1 user.
+Try to access shared folders on Domain controller. 
