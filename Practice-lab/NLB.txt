@@ -1,0 +1,11 @@
+Microsoft NLB Cluster.
+
+This LAB requires a domain controller and 2 member servers.
+
+1. On 2 member servers install Web Server (IIS) role and Network load balancing feature.
+
+2. Configure IIS on both the servers. The first server html page will display "This page is from Member1 server". The second server html page will display "This page is from Member2 server". 
+
+3. Create a NLB cluster on member1 server. Add first member1 server. Specify a cluster IP address. Select Multicast option. Once member1 server is added then add the 2nd member server in the NLB cluster.
+
+4. Go to domain controller. Access the cluster IP address. Check which server page is opened? Now go to Member server 1. In the NLB windows drainstop the server which page is displayed. Again from DCServer refresh the page. Check if other server page is displayed?   
